@@ -19,7 +19,7 @@ addRowButton.addEventListener("click", makeRow);
 
 function colorize(event) {
   const target = event.target;
-  if (target.tagName === "td") {
+  if (target.tagName === "TD") {
     if (target.className === chosenColor) {
       target.className = "";
     } else {
